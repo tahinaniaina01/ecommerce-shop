@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       {
-        location.pathname=="/"?
+        location.pathname=="/ecommerce-shop/"?
           <HeaderHome />
         :
           <HeaderProduct />
