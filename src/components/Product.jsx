@@ -20,13 +20,13 @@ export const Product = ({ product,index }) => {
                     <BsPlus className="text-3xl w-12 h-12 text-white bg-red-500"/>
                 </button>
                 <button className="text-3xl w-12 h-12 flex justify-center items-center bg-white shadow-xl">
-                    <Link to={`/ProductDetails/${id}`}><BsEyeFill /></Link>
+                    <Link to={`/ecommerce-shop/ProductDetails/${id}`}><BsEyeFill /></Link>
                 </button>
             </div>
         </div>
         <div>
             <p>{category}</p>
-            <h2 className="font-bold"><Link to={`/ProductDetails/${product.id}`}>{title}</Link></h2>
+            <h2 className="font-bold"><Link to={`/ecommerce-shop/ProductDetails/${product.id}`}>{title}</Link></h2>
             <h3 className="font-bold text-red-600">$ {price}</h3>
         </div>
     </div>);

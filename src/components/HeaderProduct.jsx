@@ -34,12 +34,12 @@ export const HeaderProduct = () => {
             );
         }
         setSearch("");
-        navigate('/');
+        navigate('/ecommerce-shop/');
     }
 
     return (<header className={`w-full flex justify-center items-center fixed top-0 left-0 z-20 ${active?'bg-white pt-2 shadow-xl':'bg-transparent pt-3'}`} data-aos="fade-down" data-aos-duration="1500">
         <div className="container w-full flex items-center justify-between pt-2 pb-2 px-5">
-            <Link to='/'><img src={img} alt="" width="40px"/></Link>
+            <Link to='/ecommerce-shop/'><img src={img} alt="" width="40px"/></Link>
             <form className="flex items-center border-[1px] border-primary px-2 pl-3 py-1 rounded-full md:w-auto overflow-hidden w-[50vw]" onSubmit={(e) => hundleSubmit(e)}>
                 <input type="text" className="outline-none bg-transparent pr-1 md:w-auto w-[40vw]" name="search" value={search} onChange={(e)=>setSearch(e.target.value)} placeholder="search" required/>
                 <button className="text-primary md:right-2 text-[20px] relative md:w-auto w-[10vw] flex justify-center items-center" type="submit"><FaSearch /></button>

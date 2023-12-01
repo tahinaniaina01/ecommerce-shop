@@ -10,7 +10,7 @@ export const Hero = () => {
                     <br className="hidden lg:inline-block"/>in one place 
                 </h1>
                 <p className="mb-8 leading-relaxed" data-aos="fade-right" data-aos-delay="200">Shop everything you need for the whole family, all in one place. We offer a wide selection of clothing and accessories for women, men and children, as well as a range of electronics for all ages.</p>
-                <Link to="/Cart">
+                <Link to="/ecommerce-shop/Cart">
                     <div className="flex items-center group font-bold text-3xl" data-aos="fade-right" data-aos-delay="300">
                         <button className="inline-flex border-0 py-2 px-2 focus:outline-none rounded">View Cart</button>
                         <BsArrowRight className='text-3xl' />

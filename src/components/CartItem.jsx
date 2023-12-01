@@ -11,12 +11,12 @@ export const CartItem = ({item}) => {
     return (
         <div className="flex items-center justify-between w-full border-b-2">
             <div className="w-full min-h-[150px] flex items-center gap-x-4">
-                <Link to={`/ProductDetails/${id}`}>
+                <Link to={`/ecommerce-shop/ProductDetails/${id}`}>
                     <img className="max-w-[80px]" src={image} alt="" />
                 </Link>
                 <div className="flex flex-col w-full h-full gap-4">
                     <div className="flex items-center justify-between w-full">
-                        <Link to={`/ProductDetails/${id}`} className="text-sm uppercase font-medium max-w-[240px] text-primary hover:underline">
+                        <Link to={`/ecommerce-shop/ProductDetails/${id}`} className="text-sm uppercase font-medium max-w-[240px] text-primary hover:underline">
                             {title}
                         </Link>
                         <button className="pr-2" onClick={() => filterCart(id)}><IoMdClose className="" /></button>

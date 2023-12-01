@@ -17,8 +17,6 @@ function App() {
 
   const location = useLocation();
 
-  console.log(location.pathname);
-
   return (
     <>
       {
@@ -28,9 +26,9 @@ function App() {
           <HeaderProduct />
       }
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/ProductDetails/:id" element={<ProductDetails />}/>
-        <Route path="/Cart" element={<Cart />} />
+        <Route path="/ecommerce-shop/" element={<Home />} />
+        <Route path="/ecommerce-shop/ProductDetails/:id" element={<ProductDetails />}/>
+        <Route path="/ecommerce-shop/Cart" element={<Cart />} />
       </Routes>
       <SlideBar />
       <Footer />

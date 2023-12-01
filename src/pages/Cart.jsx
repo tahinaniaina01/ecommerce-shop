@@ -15,7 +15,7 @@ export const Cart = () => {
             return (
                 <tr key={id} className="border-b-[3px]">
                     <td>
-                        <Link to={`/ProductDetails/${id}`}>
+                        <Link to={`/ecommerce-shop/ProductDetails/${id}`}>
                             <div className="flex items-center pb-5">
                                 <img className="max-w-[80px] md:w-auto w-[40px]" src={image} alt="" />
                                 <h1 className="md:pr-20 pr-5 md:pl-5 pl-3 pd-2 hover:underline text-xs lg:text-xl">{title}</h1>
@@ -67,7 +67,7 @@ export const Cart = () => {
                                     <CartItem />
                                 </tbody>
                             </table>
-                            <Link to="/"><BsArrowRight />Continue shopping</Link>
+                            <Link to="/ecommerce-shop/"><BsArrowRight />Continue shopping</Link>
                         </div>
                         <div className="w-[100vw] m-0 md:w-1/5 shadow-md border-[4px] md:border-none md:shadow-none p-3 flex flex-col">
                             <div className="flex items-center justify-between border-b-[5px] mt-5">

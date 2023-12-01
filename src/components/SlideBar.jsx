@@ -31,7 +31,7 @@ export const SlideBar = () => {
                         <h2><span>Total : </span> $ {parseFloat(totalPrice).toFixed(2)}</h2>
                         <div className="p-2 bg-red-400 text-white cursor-pointer" onClick={() => ClearCart()}><FaTrash /></div>
                     </div>
-                    <Link to="/Cart" className="bg-secondary text-center py-2 text-xl font-medium cursor-pointer" onClick={() => {setIsOpen(false)}}>View Cart</Link>
+                    <Link to="/ecommerce-shop/Cart" className="bg-secondary text-center py-2 text-xl font-medium cursor-pointer" onClick={() => {setIsOpen(false)}}>View Cart</Link>
                     <h1 className="bg-primary text-white text-center py-2 text-xl font-medium cursor-pointer">Checkout</h1>                
                 </div>
             </div>
