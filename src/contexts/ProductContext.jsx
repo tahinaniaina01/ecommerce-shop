@@ -27,8 +27,6 @@ export const ProductProvider = ({children}) => {
     if(error)
         console.log("Une erreur s'est produit lors de récupération de donnée");
 
-    console.log(products);
-
     return (
         <ProductContext.Provider value={ { products, setProducts, isSearch, setIsSearch, isLoading, allProducts } }>
             {children}
