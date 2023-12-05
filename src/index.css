@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'pacifico';
+    src: url('assets/fonts/Pacifico/Pacifico-Regular.ttf');
+}
+
+.font-pac{
+    font-family: 'pacifico';
+}
 /* Personnalisation de la barre de défilement */
 /* Largeur et couleur de la barre de défilement */
 ::-webkit-scrollbar {
