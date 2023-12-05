@@ -24,6 +24,9 @@ module.exports = {
       backgroundImage: {
         hero: "url('./assets/bg_hero.svg')",
       },
+      fontFamily: {
+        pacifico: "pacifico",
+      }
     },
   },
   plugins: [
